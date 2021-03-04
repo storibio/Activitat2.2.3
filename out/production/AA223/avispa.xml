@@ -1,0 +1,155 @@
+<result format="linked-data-api" href="http://datos.gob.es/apidata/catalog/dataset/l02000048-avispa-asiatica1.xml" version="0.2">
+    <link type="text/css" id="dark-mode" rel="stylesheet" href=""/>
+    <style type="text/css" id="dark-mode-custom-style"/>
+    <definition href="http://datos.gob.es/apidata/catalog/meta/dataset/_id.xml"/>
+    <extendedMetadataVersion href="http://datos.gob.es/apidata/catalog/dataset/l02000048-avispa-asiatica1.xml?_metadata=all"/>
+    <first href="http://datos.gob.es/apidata/catalog/dataset/l02000048-avispa-asiatica1.xml?_page=0"/>
+    <hasPart href="http://datos.gob.es/apidata/catalog/dataset/l02000048-avispa-asiatica1.xml"/>
+    <isPartOf href="http://datos.gob.es/apidata/catalog/dataset/l02000048-avispa-asiatica1.xml"/>
+    <items>
+        <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1">
+            <accrualPeriodicity href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/Frequency"/>
+            <description>
+                <item lang="eu">Liztor asiarrari buruzko informazioa eskaintzen da Bizkaian.</item>
+                <item lang="es">Se ofrece información sobre la avispa asiática en Bizkaia.</item>
+            </description>
+            <distribution>
+                <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/23bd1946-4982-40fc-bfcd-f82ba683e829">
+                    <accessURL>https://www.opendatabizkaia.eus/es/datastore/dump/d3aa5662-95a9-4f08-b254-b44a230014db/datos-nidos-avispa-asiatica?format=json</accessURL>
+                    <format>
+                        <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/23bd1946-4982-40fc-bfcd-f82ba683e829/format">
+                            <type>
+                                <item href="http://purl.org/dc/terms/IMT"/>
+                            </type>
+                            <value>application/json</value>
+                        </item>
+                        <item href="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+                    </format>
+                    <title>
+                        <item lang="eu">Asiako liztorraren habien datuak</item>
+                        <item lang="es">Datos de nidos de avispa asiática</item>
+                    </title>
+                    <type>
+                        <item href="http://www.w3.org/ns/dcat#Distribution"/>
+                    </type>
+                </item>
+                <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/2465cfe6-714c-454d-9179-6face2042c73">
+                    <accessURL>https://www.opendatabizkaia.eus/es/datastore/dump/d3aa5662-95a9-4f08-b254-b44a230014db/datos-nidos-avispa-asiatica?format=csv</accessURL>
+                    <format>
+                        <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/2465cfe6-714c-454d-9179-6face2042c73/format">
+                            <type>
+                                <item href="http://purl.org/dc/terms/IMT"/>
+                            </type>
+                            <value>text/csv</value>
+                        </item>
+                        <item href="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+                    </format>
+                    <title>
+                        <item lang="eu">Asiako liztorraren habien datuak</item>
+                        <item lang="es">Datos de nidos de avispa asiática</item>
+                    </title>
+                    <type>
+                        <item href="http://www.w3.org/ns/dcat#Distribution"/>
+                    </type>
+                </item>
+                <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/b3f469a8-1601-4648-adc4-573e3620a431">
+                    <accessURL>https://www.opendatabizkaia.eus/es/datastore/dump/d3aa5662-95a9-4f08-b254-b44a230014db/datos-nidos-avispa-asiatica?format=xlsx</accessURL>
+                    <format>
+                        <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/b3f469a8-1601-4648-adc4-573e3620a431/format">
+                            <type>
+                                <item href="http://purl.org/dc/terms/IMT"/>
+                            </type>
+                            <value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</value>
+                        </item>
+                        <item href="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+                    </format>
+                    <title>
+                        <item lang="eu">Asiako liztorraren habien datuak</item>
+                        <item lang="es">Datos de nidos de avispa asiática</item>
+                    </title>
+                    <type>
+                        <item href="http://www.w3.org/ns/dcat#Distribution"/>
+                    </type>
+                </item>
+                <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/f74f8603-dd69-4119-bea3-943bf805ec65">
+                    <accessURL>https://www.opendatabizkaia.eus/es/datastore/dump/d3aa5662-95a9-4f08-b254-b44a230014db/datos-nidos-avispa-asiatica?format=xml</accessURL>
+                    <format>
+                        <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/f74f8603-dd69-4119-bea3-943bf805ec65/format">
+                            <type>
+                                <item href="http://purl.org/dc/terms/IMT"/>
+                            </type>
+                            <value>text/xml</value>
+                        </item>
+                        <item href="http://publications.europa.eu/resource/authority/file-type/XML"/>
+                    </format>
+                    <title>
+                        <item lang="eu">Asiako liztorraren habien datuak</item>
+                        <item lang="es">Datos de nidos de avispa asiática</item>
+                    </title>
+                    <type>
+                        <item href="http://www.w3.org/ns/dcat#Distribution"/>
+                    </type>
+                </item>
+                <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/ff1d469c-471e-475b-af1e-dab218806bd7">
+                    <accessURL>https://www.opendatabizkaia.eus/es/datastore/dump/d3aa5662-95a9-4f08-b254-b44a230014db/datos-nidos-avispa-asiatica?format=tsv</accessURL>
+                    <format>
+                        <item href="http://datos.gob.es/catalogo/l02000048-avispa-asiatica1/resource/ff1d469c-471e-475b-af1e-dab218806bd7/format">
+                            <type>
+                                <item href="http://purl.org/dc/terms/IMT"/>
+                            </type>
+                            <value>text/tab-separated-values</value>
+                        </item>
+                        <item href="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+                    </format>
+                    <title>
+                        <item lang="eu">Asiako liztorraren habien datuak</item>
+                        <item lang="es">Datos de nidos de avispa asiática</item>
+                    </title>
+                    <type>
+                        <item href="http://www.w3.org/ns/dcat#Distribution"/>
+                    </type>
+                </item>
+            </distribution>
+            <identifier>https://www.opendatabizkaia.eus/es/catalogo/avispa-asiatica</identifier>
+            <issued datatype="dateTime">2020-05-20T00:00:00+02:00</issued>
+            <keyword>
+                <item>Asiatikoa</item>
+                <item>Asiática</item>
+                <item>Avispa</item>
+                <item>Colmena</item>
+                <item>Erlauntza</item>
+                <item>Habia</item>
+                <item>Insecto</item>
+                <item>Intsektua</item>
+                <item>Izurria</item>
+                <item>Liztorra</item>
+                <item>Nido</item>
+                <item>Plaga</item>
+                <item>Velutina</item>
+                <item>Vespa</item>
+            </keyword>
+            <modified datatype="dateTime">2020-12-03T00:00:00+01:00</modified>
+            <publisher href="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048"/>
+            <references>
+                <item href="https://www.opendatabizkaia.eus/es/"/>
+                <item href="https://www.opendatabizkaia.eus/es/catalogo/avispa-asiatica"/>
+            </references>
+            <spatial href="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+            <theme href="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente"/>
+            <title>
+                <item lang="eu">Asiako liztorra</item>
+                <item lang="es">Avispa asiática</item>
+            </title>
+            <type>
+                <item href="http://www.w3.org/ns/dcat#Dataset"/>
+            </type>
+        </item>
+    </items>
+    <itemsPerPage datatype="long">10</itemsPerPage>
+    <page datatype="long">0</page>
+    <startIndex datatype="long">1</startIndex>
+    <type>
+        <item href="http://purl.org/linked-data/api/vocab#ListEndpoint"/>
+        <item href="http://purl.org/linked-data/api/vocab#Page"/>
+    </type>
+</result>
