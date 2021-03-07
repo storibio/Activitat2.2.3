@@ -19,12 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90573955-65eb-40a2-b2ff-989d5be445bd" name="Default Changelist" comment="Afegir un xml per comprobar els resultats">
+    <list default="true" id="90573955-65eb-40a2-b2ff-989d5be445bd" name="Default Changelist" comment="value-of">
+      <change afterPath="$PROJECT_DIR$/src/exercici1/avispa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici1/avispaXSL.XSLT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici1/results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici2/danganronpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici2/danganronpaa.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici2/versio1/results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici2/versio1/translate.XSLT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercici2/versio2/results2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AA223/avispaXSL.XSLT" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AA223/avispaXSL.XSLT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AA223/results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AA223/results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/avispaXSL.XSLT" beforeDir="false" afterPath="$PROJECT_DIR$/src/avispaXSL.XSLT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AA223/avispa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AA223/avispaXSL.XSLT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AA223/results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/avispa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/datos-nidos-avispa-asiatica.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/avispaXSL.XSLT" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercici2/versio2/danganronpa.XSLT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/results.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,31 +60,29 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/results.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/exercici2/versio2/results2.xml" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergi\IdeaProjects\AA223\src\exercici2\versio1" />
+      <recent name="C:\Users\Sergi\IdeaProjects\AA223\src\exercici2\versio2" />
+      <recent name="C:\Users\Sergi\IdeaProjects\AA223\src\v2" />
       <recent name="C:\Users\Sergi\IdeaProjects\AA223\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergi\IdeaProjects\AA223\src\v1" />
+    </key>
   </component>
-  <component name="RunManager" selected="XSLT.Unnamed (2)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="AA223" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="XSLT.Unnamed (5)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,8 +115,8 @@
       <option name="myWorkingDirectory" value="" />
       <option name="myModule" />
       <option name="myJdk" />
-      <XsltFile url="file://$PROJECT_DIR$/src/avispaXSL.XSLT" />
-      <XmlFile url="file://$PROJECT_DIR$/src/avispa.xml" />
+      <XsltFile url="file://$PROJECT_DIR$/src/exercici1/avispaXSL.XSLT" />
+      <XmlFile url="file://$PROJECT_DIR$/src/exercici1/avispa.xml" />
       <parameters />
       <OutputType value="CONSOLE" save-to-file="true" />
       <FileType name="XML" />
@@ -117,18 +125,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="XSLT" factoryName="XSLT" temporary="true">
-      <option name="myOutputFile" value="" />
+    <configuration name="Unnamed (3)" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" />
       <option name="myOpenOutputFile" value="false" />
       <option name="myOpenInBrowser" value="false" />
       <option name="mySmartErrorHandling" value="true" />
       <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" value="" />
-      <option name="myWorkingDirectory" value="" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
       <option name="myModule" />
       <option name="myJdk" />
-      <XsltFile url="file://$PROJECT_DIR$/src/avispa1.XSLT" />
-      <XmlFile url="file://$PROJECT_DIR$/src/avispa.xml" />
       <parameters />
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
@@ -137,17 +143,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed (4)" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" value="C:\Users\Sergi\IdeaProjects\AA223\src\exercici2\results.xml" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/src/exercici2/versio1/translate.XSLT" />
+      <XmlFile url="file://$PROJECT_DIR$/src/exercici2/danganronpa.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="true" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (5)" type="XSLT" factoryName="XSLT" temporary="true">
+      <option name="myOutputFile" value="C:\Users\Sergi\IdeaProjects\AA223\src\exercici2\versio2\results2.xml" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$PROJECT_DIR$/src/exercici2/versio2/danganronpa.XSLT" />
+      <XmlFile url="file://$PROJECT_DIR$/src/exercici2/danganronpa.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="true" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="XSLT.Unnamed" />
       <item itemvalue="XSLT.Unnamed (1)" />
       <item itemvalue="XSLT.Unnamed (2)" />
+      <item itemvalue="XSLT.Unnamed (3)" />
+      <item itemvalue="XSLT.Unnamed (4)" />
+      <item itemvalue="XSLT.Unnamed (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="XSLT.Unnamed (5)" />
+        <item itemvalue="XSLT.Unnamed (4)" />
+        <item itemvalue="XSLT.Unnamed (3)" />
         <item itemvalue="XSLT.Unnamed (2)" />
         <item itemvalue="XSLT.Unnamed (1)" />
-        <item itemvalue="XSLT.Unnamed" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +208,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614858904211</updated>
-      <workItem from="1614858905284" duration="1960000" />
+      <workItem from="1614858905284" duration="3072000" />
+      <workItem from="1614862380360" duration="456000" />
+      <workItem from="1615070465810" duration="8944000" />
+      <workItem from="1615114342591" duration="13260000" />
     </task>
     <task id="LOCAL-00001" summary="Template i xml original">
       <created>1614859459971</created>
@@ -196,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614860294494</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="value-of">
+      <created>1614860948118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614860948118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,17 +271,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Template i xml original" />
     <MESSAGE value="Afegir un xml per comprobar els resultats" />
-    <option name="LAST_COMMIT_MESSAGE" value="Afegir un xml per comprobar els resultats" />
+    <MESSAGE value="value-of" />
+    <option name="LAST_COMMIT_MESSAGE" value="value-of" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="187" key="FileChooserDialogImpl" timestamp="1614860195684">
+    <state x="159" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615115465527">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="555" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1614860195684" />
+    <state x="159" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1615115465527" />
+    <state x="555" y="187" key="FileChooserDialogImpl" timestamp="1615121142642">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="555" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1615121142642" />
     <state x="647" y="330" key="Github.ShareDialog" timestamp="1614860434396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -231,41 +296,62 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="582" y="137" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1614859141757" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1614860860579">
+    <state width="724" height="223" key="GridCell.Tab.0.bottom" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614860860579" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1614860860579">
+    <state width="724" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.0.center" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614860860579" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1614860860579">
+    <state width="724" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.0.left" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614860860579" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1614860860579">
+    <state width="724" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.0.right" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614860860579" />
-    <state width="1493" height="223" key="GridCell.Tab.1.bottom" timestamp="1614860857289">
+    <state width="724" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.1.bottom" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614860857289" />
-    <state width="1493" height="223" key="GridCell.Tab.1.center" timestamp="1614860857289">
+    <state width="724" height="223" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.1.center" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1614860857289" />
-    <state width="1493" height="223" key="GridCell.Tab.1.left" timestamp="1614860857289">
+    <state width="724" height="223" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.1.left" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1614860857289" />
-    <state width="1493" height="223" key="GridCell.Tab.1.right" timestamp="1614860857289">
+    <state width="724" height="223" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state width="724" height="223" key="GridCell.Tab.1.right" timestamp="1615128178290">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1614860857289" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614860399400">
+    <state width="724" height="223" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1615128178290" />
+    <state x="0" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615075104936">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1614860399400" />
+    <state x="0" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1615075104936" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614862276921">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1614862276921" />
+    <state x="809" y="198" key="run.anything.popup" timestamp="1615083133933">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="809" y="198" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1615083133933" />
+    <state x="54" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1615122677146">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="54" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1615122677146" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history>
+      <element expression="/items/item/keyword" />
+      <element expression="/items/item/keyword/item" />
+      <element expression="/items/item/distribution/keyword/item" />
+      <element expression="/items/item/distribution/keyword" />
+    </history>
+    <find-history />
   </component>
 </project>

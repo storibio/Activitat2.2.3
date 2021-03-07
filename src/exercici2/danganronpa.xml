@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videojoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="danganronpaa.xsd">
+    <title>Dangan Ronpa: Trigger Happy Havoc</title>
+    <data_publicacio>
+        <any>2014</any>
+        <mes>02</mes>
+        <dia>11</dia>
+    </data_publicacio>
+    <serie>Danganronpa</serie>
+    <productors>
+        <productor>
+            <nom>Yoshinori Terasawa</nom>
+        </productor>
+        <productor>
+            <nom>Yuichiro Saito</nom>
+        </productor>
+    </productors>
+    <guionista>Kazutaka Kodaka</guionista>
+    <desenvolupadors>
+        <desenvolupador>
+            <nom>Spike Chunsoft</nom>
+        </desenvolupador>
+        <desenvolupador>
+            <nom>Abstraction</nom>
+        </desenvolupador>
+        <desenvolupador>
+            <nom>Spike</nom>
+        </desenvolupador>
+    </desenvolupadors>
+    <personatges>
+        <personatge sexe="Home" vivo="true">
+            <nom>Makoto Naegi</nom>
+            <edat>19</edat>
+            <pes unitat="kg">52 kg</pes>
+            <altura unitat="cm">160</altura>
+            <talent>Estudiant Esperanzat Definitiu</talent>
+        </personatge>
+        <personatge sexe="Altres" vivo="true">
+            <nom>Monokuma</nom>
+            <edat>Desconeguda</edat>
+            <pes unitat="kg">Desconegut</pes>
+            <altura unitat="cm">75</altura>
+            <talent>Ningun</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="true">
+            <nom>Aoi Asahina</nom>
+            <edat>19</edat>
+            <pes unitat="kg">50</pes>
+            <altura unitat="cm">160</altura>
+            <talent>Estudiant Natacio Definitiu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="true">
+            <nom>Byakuya Togami</nom>
+            <edat>19</edat>
+            <pes unitat="kg">68</pes>
+            <altura unitat="cm">185</altura>
+            <talent>Estudiant Hereu Definitiu</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="false">
+            <nom>Celestia Ludenberg</nom>
+            <edat>19</edat>
+            <pes unitat="kg">46</pes>
+            <altura unitat="cm">164</altura>
+            <talent>Estudiant Jugadora Definitiu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="false">
+            <nom>Chihiro Fujisaki</nom>
+            <edat>19</edat>
+            <pes unitat="kg">41</pes>
+            <altura unitat="cm">148</altura>
+            <talent>Estudiant Programador Definitu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="false">
+            <nom>Hifumi Yamada</nom>
+            <edat>19</edat>
+            <pes unitat="kg">155</pes>
+            <altura unitat="cm">170</altura>
+            <talent>Estudiant Artista Difinitiu</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="true">
+            <nom>Junko Enoshima</nom>
+            <edat>19</edat>
+            <pes unitat="kg">45</pes>
+            <altura unitat="cm">169</altura>
+            <talent>Estudiant Model Definitiu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="false">
+            <nom>Kiyotaka Ishimaru</nom>
+            <edat>19</edat>
+            <pes unitat="kg">66</pes>
+            <altura unitat="cm">176</altura>
+            <talent>Estudiant Delegat Definitiu</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="true">
+            <nom>Kyoko Kirigiri</nom>
+            <edat>19</edat>
+            <pes>48</pes>
+            <altura>167</altura>
+            <talent>Estudiant Detectiu Definitiu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="false">
+            <nom>Leon Kuwata</nom>
+            <edat>19</edat>
+            <pes unitat="kg">67</pes>
+            <altura unitat="cm">175</altura>
+            <talent>Estudiant Super Jugador de Baseball Definitiu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="false">
+            <nom>Mondo Owada</nom>
+            <edat>19</edat>
+            <pes unitat="kg">76</pes>
+            <altura unitat="cm">187</altura>
+            <talent>Estudiant Motorista Definitiu</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="false">
+            <nom>Sakura Ogami</nom>
+            <edat>Desconeguda</edat>
+            <pes unitat="kg">99</pes>
+            <altura unitat="cm">192</altura>
+            <talent>Estudiant D'arts Marcials Definitius</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="false">
+            <nom>Sayaka Maizono</nom>
+            <edat>19</edat>
+            <pes unitat="kg">49</pes>
+            <altura unitat="cm">165</altura>
+            <talent>Estiduant Idol Definitiu</talent>
+        </personatge>
+        <personatge sexe="Dona" vivo="true">
+            <nom>Toko Fukawa</nom>
+            <edat>19</edat>
+            <pes unitat="kg">47</pes>
+            <altura unitat="cm">165</altura>
+            <talent>Estudiant Escriptora Difinitiu</talent>
+        </personatge>
+        <personatge sexe="Home" vivo="true">
+            <nom>Yasuhiro Hagakure</nom>
+            <edat>19</edat>
+            <pes unitat="kg">71</pes>
+            <altura unitat="cm">180</altura>
+            <talent>Estudiant Chaman Definitiu</talent>
+        </personatge>
+    </personatges>
+    <academia_pic_esperanca>
+        <pisos>
+            <primer num="1r">
+                <salas>dormitoris, menjador, cuina, piscina, incineradora, magatzem, sauna</salas>
+            </primer>
+            <segon num="2n">
+                <salas>llibreria, habitacio_secreta</salas>
+                <clases>2-A, 2-B</clases>
+            </segon>
+            <tercer num="3r">
+                <salas>sala_de_control, sala_artistica, magatzem, laboratori_fisica</salas>
+                <clases>3-A, 3-B</clases>
+            </tercer>
+            <quart num="4t">
+                <salas>musica, director, sala_ment_mestre, laboratori_quimic, servidors</salas>
+                <clases>4-A, 4-B</clases>
+            </quart>
+            <cinque num="5e">
+                <salas>dojo, laboratori_biologia, morgue, jardi</salas>
+                <clases>5-A, 5-B, 5-C</clases>
+            </cinque>
+        </pisos>
+    </academia_pic_esperanca>
+</videojoc>

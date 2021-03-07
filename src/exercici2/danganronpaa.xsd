@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="videojoc" type="videojocType"/>
+    <xs:complexType name="data_publicacioType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="any"/>
+            <xs:element type="xs:string" name="mes"/>
+            <xs:element type="xs:string" name="dia"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="productorType">
+        <xs:sequence>
+            <xs:element name="nom">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Yoshinori Terasawa"/>
+                        <xs:enumeration value="Yuichiro Saito"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="productorsType">
+        <xs:sequence>
+            <xs:element type="productorType" name="productor" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="desenvolupadorType">
+        <xs:sequence>
+            <xs:element name="nom">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Spike Chunsoft"/>
+                        <xs:enumeration value="Abstraction"/>
+                        <xs:enumeration value="Spike"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="desenvolupadorsType">
+        <xs:sequence>
+            <xs:element type="desenvolupadorType" name="desenvolupador" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="pesType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="unitat" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="alturaType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="unitat" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="personatgeType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nom"/>
+            <xs:element name="edat">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="19"/>
+                        <xs:enumeration value="Desconeguda"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element type="pesType" name="pes"/>
+            <xs:element type="alturaType" name="altura"/>
+            <xs:element type="xs:string" name="talent"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="sexe" use="optional"/>
+        <xs:attribute type="xs:string" name="vivo" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="personatgesType">
+        <xs:sequence>
+            <xs:element type="personatgeType" name="personatge" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="primerType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="salas"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="num"/>
+    </xs:complexType>
+    <xs:complexType name="segonType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="salas"/>
+            <xs:element type="xs:string" name="clases"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="num"/>
+    </xs:complexType>
+    <xs:complexType name="tercerType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="salas"/>
+            <xs:element type="xs:string" name="clases"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="num"/>
+    </xs:complexType>
+    <xs:complexType name="quartType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="salas"/>
+            <xs:element type="xs:string" name="clases"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="num"/>
+    </xs:complexType>
+    <xs:complexType name="cinqueType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="salas"/>
+            <xs:element type="xs:string" name="clases"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="num"/>
+    </xs:complexType>
+    <xs:complexType name="pisosType">
+        <xs:sequence>
+            <xs:element type="primerType" name="primer"/>
+            <xs:element type="segonType" name="segon"/>
+            <xs:element type="tercerType" name="tercer"/>
+            <xs:element type="quartType" name="quart"/>
+            <xs:element type="cinqueType" name="cinque"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="academia_pic_esperancaType">
+        <xs:sequence>
+            <xs:element type="pisosType" name="pisos"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="videojocType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="data_publicacioType" name="data_publicacio"/>
+            <xs:element type="xs:string" name="serie"/>
+            <xs:element type="productorsType" name="productors"/>
+            <xs:element type="xs:string" name="guionista"/>
+            <xs:element type="desenvolupadorsType" name="desenvolupadors"/>
+            <xs:element type="personatgesType" name="personatges"/>
+            <xs:element type="academia_pic_esperancaType" name="academia_pic_esperanca"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="edat">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/> <!---->
+                <xs:maxInclusive value="25"/> <!---->
+                <xs:pattern value="[0-9]"/><!---->
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="talent">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[a-z]"/><!---->
+                <xs:pattern value="[A-Z]"/><!---->
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:simpleType name="sexe">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Home|Dona"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="num">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="1r"/>
+            <xs:enumeration value="2n"/>
+            <xs:enumeration value="3r"/>
+            <xs:enumeration value="4t"/>
+            <xs:enumeration value="5e"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="nom">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="0"/>
+                <xs:maxLength value="25"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+</xs:schema>

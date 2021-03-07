@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><title>Dangan Ronpa: Trigger Happy Havoc</title><game/><characters>
+        
+            Makoto Naegi
+            19
+            52 kg
+            160
+            Estudiant Esperanzat Definitiu
+        
+        
+            Monokuma
+            Desconeguda
+            Desconegut
+            75
+            Ningun
+        
+        
+            Aoi Asahina
+            19
+            50
+            160
+            Estudiant Natacio Definitiu
+        
+        
+            Byakuya Togami
+            19
+            68
+            185
+            Estudiant Hereu Definitiu
+        
+        
+            Celestia Ludenberg
+            19
+            46
+            164
+            Estudiant Jugadora Definitiu
+        
+        
+            Chihiro Fujisaki
+            19
+            41
+            148
+            Estudiant Programador Definitu
+        
+        
+            Hifumi Yamada
+            19
+            155
+            170
+            Estudiant Artista Difinitiu
+        
+        
+            Junko Enoshima
+            19
+            45
+            169
+            Estudiant Model Definitiu
+        
+        
+            Kiyotaka Ishimaru
+            19
+            66
+            176
+            Estudiant Delegat Definitiu
+        
+        
+            Kyoko Kirigiri
+            19
+            48
+            167
+            Estudiant Detectiu Definitiu
+        
+        
+            Leon Kuwata
+            19
+            67
+            175
+            Estudiant Super Jugador de Baseball Definitiu
+        
+        
+            Mondo Owada
+            19
+            76
+            187
+            Estudiant Motorista Definitiu
+        
+        
+            Sakura Ogami
+            Desconeguda
+            99
+            192
+            Estudiant D'arts Marcials Definitius
+        
+        
+            Sayaka Maizono
+            19
+            49
+            165
+            Estiduant Idol Definitiu
+        
+        
+            Toko Fukawa
+            19
+            47
+            165
+            Estudiant Escriptora Difinitiu
+        
+        
+            Yasuhiro Hagakure
+            19
+            71
+            180
+            Estudiant Chaman Definitiu
+        
+    </characters><characters id="&#10;        &#10;            Makoto Naegi&#10;            19&#10;            52 kg&#10;            160&#10;            Estudiant Esperanzat Definitiu&#10;        &#10;        &#10;            Monokuma&#10;            Desconeguda&#10;            Desconegut&#10;            75&#10;            Ningun&#10;        &#10;        &#10;            Aoi Asahina&#10;            19&#10;            50&#10;            160&#10;            Estudiant Natacio Definitiu&#10;        &#10;        &#10;            Byakuya Togami&#10;            19&#10;            68&#10;            185&#10;            Estudiant Hereu Definitiu&#10;        &#10;        &#10;            Celestia Ludenberg&#10;            19&#10;            46&#10;            164&#10;            Estudiant Jugadora Definitiu&#10;        &#10;        &#10;            Chihiro Fujisaki&#10;            19&#10;            41&#10;            148&#10;            Estudiant Programador Definitu&#10;        &#10;        &#10;            Hifumi Yamada&#10;            19&#10;            155&#10;            170&#10;            Estudiant Artista Difinitiu&#10;        &#10;        &#10;            Junko Enoshima&#10;            19&#10;            45&#10;            169&#10;            Estudiant Model Definitiu&#10;        &#10;        &#10;            Kiyotaka Ishimaru&#10;            19&#10;            66&#10;            176&#10;            Estudiant Delegat Definitiu&#10;        &#10;        &#10;            Kyoko Kirigiri&#10;            19&#10;            48&#10;            167&#10;            Estudiant Detectiu Definitiu&#10;        &#10;        &#10;            Leon Kuwata&#10;            19&#10;            67&#10;            175&#10;            Estudiant Super Jugador de Baseball Definitiu&#10;        &#10;        &#10;            Mondo Owada&#10;            19&#10;            76&#10;            187&#10;            Estudiant Motorista Definitiu&#10;        &#10;        &#10;            Sakura Ogami&#10;            Desconeguda&#10;            99&#10;            192&#10;            Estudiant D'arts Marcials Definitius&#10;        &#10;        &#10;            Sayaka Maizono&#10;            19&#10;            49&#10;            165&#10;            Estiduant Idol Definitiu&#10;        &#10;        &#10;            Toko Fukawa&#10;            19&#10;            47&#10;            165&#10;            Estudiant Escriptora Difinitiu&#10;        &#10;        &#10;            Yasuhiro Hagakure&#10;            19&#10;            71&#10;            180&#10;            Estudiant Chaman Definitiu&#10;        &#10;    "/><pisos/><hope_pick_academi>
+        
+            
+                dormitoris, menjador, cuina, piscina, incineradora, magatzem, sauna
+            
+            
+                llibreria, habitacio_secreta
+                2-A, 2-B
+            
+            
+                sala_de_control, sala_artistica, magatzem, laboratori_fisica
+                3-A, 3-B
+            
+            
+                musica, director, sala_ment_mestre, laboratori_quimic, servidors
+                4-A, 4-B
+            
+            
+                dojo, laboratori_biologia, morgue, jardi
+                5-A, 5-B, 5-C
+            
+        
+    </hope_pick_academi><release_date>
+        2014
+        02
+        11
+    </release_date><developers>
+        
+            Spike Chunsoft
+        
+        
+            Abstraction
+        
+        
+            Spike
+        
+    </developers><producers>
+        
+            Yoshinori Terasawa
+        
+        
+            Yuichiro Saito
+        
+    </producers><screenwriter>Kazutaka Kodaka</screenwriter>
